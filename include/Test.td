@@ -16,6 +16,10 @@ def Test_TestOp : Test_Op<"test", []>
 
     let arguments = (ins);
     let results = (outs);
+
+    let assemblyFormat = [{
+        attr-dict
+    }];
 }
 
 #endif
